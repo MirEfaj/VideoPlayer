@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3sp"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/myWeb"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <!--..............................song1...................................-->
+            <LinearLayout
+                android:id="@+id/song1"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/james"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :Tor Premete Ondho Holam (তোর প্রেমেতে অন্ধ হলাম) "
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 5:03  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--..............................song2...................................-->
+            <LinearLayout
+                android:id="@+id/song2"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/song2"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :John Denver - Take Me Home, Country Roads ( cover by J.Fla )"
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 2:36  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--..............................song3...................................-->
+            <LinearLayout
+                android:id="@+id/song3"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/behola"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :SHUNNO’s new song ‘Behula’, presented by Here's To Life: Musing of the Soul  "
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 4:26  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--...........................song4...................................-->
+            <LinearLayout
+                android:id="@+id/song4"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/tui"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :তৈ তৈ তৈ আমার বৈয়ম পাখি কই?"
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 2:06  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--..............................song5...................................-->
+            <LinearLayout
+                android:id="@+id/song5"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/jhumka"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :Xefer x Muza - Jhumka (Official Music Video)"
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 3:17  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--..............................song6...................................-->
+            <LinearLayout
+                android:id="@+id/song6"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/vijay"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :Rahul Nambiar, Harika Narayanan  Deepak's Live Performance "
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 4:34  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--..............................song7...................................-->
+            <LinearLayout
+                android:id="@+id/song7"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/sada"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :Shada Shada Kala Kala | সাদা সাদা কালা কালা | Hawa Film Song | Film by Mejbaur Rahman Sumon "
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 3:52  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--..............................song8...................................-->
+            <LinearLayout
+                android:id="@+id/song8"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/aynabazi"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :চিরকুট ব্যান্ড -- Na Bujhi Duniya || না বুঝি দুনিয়া না বুঝি তোমায়...পাপ জমাই"
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 3:05  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--..............................song9...................................-->
+            <LinearLayout
+                android:id="@+id/song9"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/nobel"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :কবি কাজী নজরুল ইসলামের গানে গানে.....মাঈনুল নোবেল "
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 4:11  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--...........................song10...................................-->
+            <LinearLayout
+                android:id="@+id/song10"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:paddingRight="5sp"
+                    android:src="@drawable/flute"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title :altaj music beatbox"
+                        android:maxLines="2"
+                        android:paddingBottom="3sp"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Duration : 3:12  "
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
